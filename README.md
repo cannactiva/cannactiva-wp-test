@@ -28,7 +28,9 @@ Implementar una funcionalidad en Woocommerce que permita gestionar y aplicar los
   - Reducido: 11.4% IVA
   - Tasa Cero: 0% IVA
     
+
 > *En la tabla de impuestos de Woocommerce aparecerán los diferentes impuestos según país. Trabajaremos con unos pocos ejemplos que ya vienen configurados.
+
 
 ### Roles Woocommerce:				
 - **Clientes Finales**: Se aplica el impuesto Estándar
