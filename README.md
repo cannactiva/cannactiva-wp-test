@@ -6,7 +6,7 @@ Implementar una funcionalidad en Woocommerce que permita gestionar y aplicar los
 ## Pasos
 
 1. **Preparación del Entorno**: 
-   - Comienza estableciendo el entorno con Docker.
+   - Comienza estableciendo el entorno con Docker, descargar la siguiente image: [Docker Prueba Nivel WordPress Cannaciva](https://www.xxxx.com)
    - Ten presente que la configuración de productos e impuestos ya está preestablecida en esta imagen de Docker.
 
 2. **Desarrollo**: 
