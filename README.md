@@ -19,18 +19,13 @@ Implementar una funcionalidad en Woocommerce que permita gestionar y aplicar los
 - **Estándar**: Todos los productos excepto los de alimentación.
 - **Reducido**: Los productos de alimentación.
 
-### Impuesto a aplicar según rol:
-- **Estándar**: 21% IVA en España *
-- **Reducido**: 10% IVA en España *
-- **Tasa Cero**: 0% IVA en España *
+### Impuestos:
+- **Estándar**: 21% IVA 
+- **Reducido**: 10% IVA 
+- **Tasa Cero**: 0% IVA 
 - **Tasas con Recargo de Equivalencia**
   - Estándar: 26.2% IVA
   - Reducido: 11.4% IVA
-  - Tasa Cero: 0% IVA
-    
-
-> *En la tabla de impuestos de Woocommerce aparecerán los diferentes impuestos según país. Trabajaremos con unos pocos ejemplos que ya vienen configurados.
-
 
 ### Roles Woocommerce:				
 - **Clientes Finales**: Se aplica el impuesto Estándar
