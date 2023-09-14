@@ -34,8 +34,16 @@ Implementar una funcionalidad en Woocommerce que permita gestionar y aplicar los
 - **Dropshipper RE**: 
 
 ### Aplicación de impuesto en producto y envío según rol:				
-- **Clientes Finales**: Se aplica el impuesto Estándar o reducido según el tipo de producto.
-- **Dropshipper**: Se aplica el impuesto Estándar o reducido según el tipo de producto.
-- **Dropshipper EU**: Se aplica el impuesto Tasa cero.
-- **Dropshipper RE**: Se aplica el impuesto Tasa con Recargo de Equivalencia, estándar o reducido según el tipo de producto.
+- **Clientes Finales**: 
+Se aplica el impuesto Estándar o reducido según el tipo de producto.
+
+- **Dropshipper**: 
+Se aplica el impuesto Estándar o reducido según el tipo de producto.
+
+- **Dropshipper EU**: 
+Se aplica el impuesto Tasa cero.
+
+- **Dropshipper RE**: 
+Se aplica el impuesto Tasa con Recargo de Equivalencia, estándar o reducido según el tipo de producto.
+
 
