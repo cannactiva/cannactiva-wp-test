@@ -28,10 +28,10 @@ Implementar una funcionalidad en Woocommerce que permita gestionar y aplicar los
   - Reducido: 11.4% IVA
 
 ### Roles Woocommerce:				
-- **Clientes Finales**: 
-- **Dropshipper**: 
-- **Dropshipper EU**: 
-- **Dropshipper RE**: 
+- **Clientes Finales**
+- **Dropshipper**
+- **Dropshipper EU** 
+- **Dropshipper RE** 
 
 ### Aplicación de impuesto en producto y envío según rol:				
 - **Clientes Finales**: 
