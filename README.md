@@ -15,11 +15,11 @@ Implementar una funcionalidad en Woocommerce que permita gestionar y aplicar los
 
 ## Configuración del entorno
 
-### Impuesto según producto:
+### Impuestos predeterminados según producto:
 - **Estándar**: Todos los productos excepto los de alimentación.
 - **Reducido**: Los productos de alimentación.
 
-### Impuestos:
+### Todos los impuestos: 
 - **Estándar**: 21% IVA 
 - **Reducido**: 10% IVA 
 - **Tasa Cero**: 0% IVA 
@@ -28,7 +28,14 @@ Implementar una funcionalidad en Woocommerce que permita gestionar y aplicar los
   - Reducido: 11.4% IVA
 
 ### Roles Woocommerce:				
-- **Clientes Finales**: Se aplica el impuesto Estándar
-- **Dropshipper**: Se aplica el impuesto Estándar
-- **Dropshipper EU**: Se aplica el impuesto Tasa cero
-- **Dropshipper RE**: Se aplica el impuesto Tasa con Recargo de Equivalencia
+- **Clientes Finales**: 
+- **Dropshipper**: 
+- **Dropshipper EU**: 
+- **Dropshipper RE**: 
+
+### Aplicación de impuesto en producto y envío según rol:				
+- **Clientes Finales**: Se aplica el impuesto Estándar o reducido según el tipo de producto.
+- **Dropshipper**: Se aplica el impuesto Estándar o reducido según el tipo de producto.
+- **Dropshipper EU**: Se aplica el impuesto Tasa cero.
+- **Dropshipper RE**: Se aplica el impuesto Tasa con Recargo de Equivalencia, estándar o reducido según el tipo de producto.
+
